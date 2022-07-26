@@ -1,0 +1,31 @@
+body
+{
+    font-family: 'Montserrat';
+    color: black;
+}
+#marvel
+{
+    font-family: 'Marvel';
+    color: #fff;
+    font-size: 60px;
+    background-color: red;
+}
+.navbar
+{
+    background-color: red;
+}
+.bg
+{
+    background-color: black;
+}
+.fluid-container
+{
+    padding: 0% 10% 0% 10%;
+    background-color: red;
+}
+.nav-link
+{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color:azure;
+}

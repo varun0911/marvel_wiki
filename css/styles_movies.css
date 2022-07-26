@@ -1,0 +1,39 @@
+body
+{
+    background-color: black;
+}
+#marvel
+{
+    font-family: 'Marvel';
+    color: #fff;
+    font-size: 60px;
+    background-color: red;
+}
+.fluid-container
+{
+    padding: 0% 10% 0% 10%;
+    background-color: red;
+}
+.dash
+{
+    color: #fff;
+    border:1px solid white; 
+}
+.nav-link
+{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color:azure;
+}
+.curser
+{
+    cursor: pointer;
+}
+.card
+{
+    min-height: 200px;
+}
+.pad
+{
+    padding-bottom: 80px;
+}

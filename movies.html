@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="/jquery/jquery.js"></script>
+    <!-- marvel font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+
+    <!-- bootstrap css cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/1094429d81.js" crossorigin="anonymous"></script>
+
+    <!-- bootstrap min js cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+
+    <!-- custum css -->
+    <link rel="stylesheet" href="/css/styles_movies.css">
+</head>
+<body>
+    <!-- title -->
+    <section id="title">
+      <!-- nav bar-->
+          <div class="fluid-container bg">
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                  <a class="navbar-brand" href="index.html"><span id="marvel">MARVEL</span></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#demo" aria-controls="demo" aria-expanded="false" aria-label="toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="demo">
+                  <ul class="navbar-nav ms-auto">
+                      <li class="nav-item">
+                          <a class="nav-link" href="movies.html">MOVIES</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="characters.html">CHARACTERS</a>
+                      </li>
+                      <li class="nav-item">
+                        <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/varun-sai-39758417b/">CONTACT ME</a>
+                    </li>   
+                  </ul>
+                  </div>
+              </nav>
+      </section>
+    <!-- phases -->
+    <section id="phases">
+      <!-- phase one -->
+        <h4 style="color:white">PHASE ONE</h4>
+        <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img id="iron_man_1" src="/images/iron_man.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Iron Man</h6>
+                  <p id="iron_man_text" class="card-text">After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="hulk" src="/images/hulk.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Hulk</h6>
+                  <p id="hulk_text" class="card-text">Bruce Banner, a scientist on the run from the U.S. Government, must find a cure for the monster he turns into whenever he loses his temper.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="iron_man_2" src="/images/iron_man_2.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Iron man 2</h6>
+                  <p id="iron_man_2_text" class="card-text">With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="thor" src="/images/thor_1.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Thor</h6>
+                  <p id="thor_text" class="card-text">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img id="captain_america" src="/images/captain_america_1.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Captain america: the first avenger</h6>
+                    <p id="captain_america_text" class="card-text">Steve Rogers, a rejected military soldier, transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a warmonger and a terrorist organization.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="avengers" src="/images/avengers_1.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">The Avengers</h6>
+                    <p id="avengers_text" class="card-text">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br>
+          <hr class="dash">
+          <br>
+          <br>
+          <!-- phase 2 -->
+          <h4 style="color:white">PHASE TWO</h4>
+        <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img id="iron_man_3" src="/images/iron_man_3.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Iron Man 3</h6>
+                  <p id="iron_man_3_text" class="card-text">When Tony Stark's world is torn apart by a formidable terrorist called the Mandarin, he starts an odyssey of rebuilding and retribution.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="thor_2" src="/images/thor_2.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Thor: the dark world</h6>
+                  <p id="thor_2_text" class="card-text">When the Dark Elves attempt to plunge the universe into darkness, Thor must embark on a perilous and personal journey that will reunite him with doctor Jane Foster.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="captain_america_2" src="/images/captain_america_2.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Captain america: the winter soldier</h6>
+                  <p id="captain_america_2_text" class="card-text">As Steve Rogers struggles to embrace his role in the modern world, he teams up with a fellow Avenger and S.H.I.E.L.D agent, Black Widow, to battle a new threat from history: an assassin known as the Winter Soldier.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="gfg_1" src="/images/gfg_1.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Guardians of the galaxy</h6>
+                  <p id="gfg_1_text" class="card-text">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img id="avengers_2" src="/images/avengers_2.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Avengers: Age of ultron</h6>
+                    <p id="avengers_2_text" class="card-text">When Tony Stark and Bruce Banner try to jump-start a dormant peacekeeping program called Ultron, things go horribly wrong and it's up to Earth's mightiest heroes to stop the villainous Ultron from enacting his terrible plan.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="antman" src="/images/antman.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Ant-man</h6>
+                    <p id="antman_text" class="card-text">Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army from enslaving humanity.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br>
+          <hr class="dash">
+          <br>
+          <br>
+          <!-- phase 3 -->
+          <h4 style="color:white">PHASE THREE</h4>
+        <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card">
+                <img id="civil_war" src="/images/civil_war.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Captain america: civil war</h6>
+                  <p id="civil_war_text" class="card-text">Political involvement in the Avengers' affairs causes a rift between Captain America and Iron Man.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="doctor_strange_1" src="/images/doctor_strange_1.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Doctor strange</h6>
+                  <p id="doctor_strange_1_text" class="card-text">While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="gfg_2" src="/images/gfg_2.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Guardians of the galaxy vol.2</h6>
+                  <p id="gfg_2_text" class="card-text">The Guardians struggle to keep together as a team while dealing with their personal family issues, notably Star-Lord's encounter with his father the ambitious celestial being Ego.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="spider_1" src="/images/spider_1.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Spider man: homecoming</h6>
+                  <p id="spider_1_text" class="card-text">Peter Parker balances his life as an ordinary high school student in Queens with his superhero alter-ego Spider-Man, and finds himself on the trail of a new menace prowling the skies of New York City.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img id="thor_3" src="/images/thor_3.png" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Thor ragnarock</h6>
+                    <p id="thor_3_text" class="card-text">Imprisoned on the planet Sakaar, Thor must race against time to return to Asgard and stop Ragnarök, the destruction of his world, at the hands of the powerful and ruthless villain Hela.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="black_panther_1" src="/images/black_panther_1.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Black panther</h6>
+                    <p id="black_panther_1_text" class="card-text">T'Challa, heir to the hidden but advanced kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="infinity_war" src="/images/infinity_warc.png" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Avengers: infinity war</h6>
+                    <p id="infinity_war_text" class="card-text">The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="antman_2" src="/images/antman_2.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Ant man and the wasp</h6>
+                    <p id="antman_2_text" class="card-text">As Scott Lang balances being both a superhero and a father, Hope van Dyne and Dr. Hank Pym present an urgent new mission that finds the Ant-Man fighting alongside The Wasp to uncover secrets from their past.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="captain_marvel" src="/images/captain_marvel.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Captain marvel</h6>
+                    <p id="captain_marvel_text" class="card-text">Carol Danvers becomes one of the universe's most powerful heroes when Earth is caught in the middle of a galactic war between two alien races.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="end_game" src="/images/end_game.png" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Avengers: End game</h6>
+                    <p id="end_game_text" class="card-text">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="spider_2" src="/images/spider_2.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Spiderman: Far away from home</h6>
+                    <p id="spider_2_text" class="card-text">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <br>
+          <hr class="dash">
+          <br>
+          <br>
+          <!-- phase 4 -->
+          <h4 style="color:white">PHASE FOUR</h4>
+        <div class="row row-cols-1 row-cols-lg-6 row-cols-md-3 g-4 pad">
+            <div class="col">
+              <div class="card">
+                <img id="wanda" src="/images/wanda.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">WandaVision</h6>
+                  <p id="wanda_text" class="card-text">Blends the style of classic sitcoms with the MCU, in which Wanda Maximoff and Vision - two super-powered beings living their ideal suburban lives - begin to suspect that everything is not as it seems.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="falcon" src="/images/falcon.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Falcon and the Winter Soldier</h6>
+                  <p id="falcon_text" class="card-text">Following the events of 'Avengers: Endgame,' Sam Wilson/Falcon and Bucky Barnes/Winter Soldier team up in a global adventure that tests their abilities -- and their patience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="loki" src="/images/loki.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">LOKI</h6>
+                  <p id="loki_text" class="card-text">The mercurial villain Loki resumes his role as the God of Mischief in a new series that takes place after the events of “Avengers: Endgame.”</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img id="widow" src="/images/widow.jpg" class="card-img-top curser" alt="...">
+                <div class="card-body">
+                  <h6 class="card-title">Black widow</h6>
+                  <p id="widow_text" class="card-text">Natasha Romanoff confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                  <img id="what_if" src="/images/what_if.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">What if...?</h6>
+                    <p id="what_if_text" class="card-text">Exploring pivotal moments from the Marvel Cinematic Universe and turning them on their head, leading the audience into uncharted territory.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="shang" src="/images/shang.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Shang-Chi and the Legend of the Ten Rings</h6>
+                    <p id="shang_text" class="card-text">Shang-Chi, the master of weaponry-based Kung Fu, is forced to confront his past after being drawn into the Ten Rings organization.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="eternals" src="/images/eternals.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Eternals</h6>
+                    <p id="eternals_text" class="card-text">The saga of the Eternals, a race of immortal beings who lived on Earth and shaped its history and civilizations.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="hawkeye" src="/images/hawkeye.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Hawkeye</h6>
+                    <p id="hawkeye_text" class="card-text">Series based on the Marvel Comics superhero Hawkeye, centering on the adventures of Young Avenger, Kate Bishop, who took on the role after the original Avenger, Clint Barton.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="spider_3" src="/images/spider_3.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Spider-Man: No Way Home</h6>
+                    <p id="spider_3_text" class="card-text">With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="moonknight" src="/images/moonknight.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Moonknight</h6>
+                    <p id="moonknight_text" class="card-text">Steven Grant discovers he's been granted the powers of an Egyptian moon god. But he soon finds out that these newfound powers can be both a blessing and a curse to his troubled life.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="doctor_2" src="/images/doctor_strange_2.png" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Doctor Strange in the Multiverse of Madness</h6>
+                    <p id="doctor_2_text" class="card-text">Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which threaten to wipe out millions across the multiverse. They seek help from Wanda the Scarlet Witch, Wong and others.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="ms_marvel" src="/images/ms_marvel_1.jpg" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Ms. Marvel</h6>
+                    <p id="ms_marvel_text" class="card-text">Kamala is a superhero fan with an imagination, particularly when it comes to Captain Marvel; Kamala feels like she doesn't fit in at school and sometimes even at home, that is until she gets superpowers like the heroes she's looked up to.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <img id="thor_4" src="/images/thor_4.png" class="card-img-top curser" alt="...">
+                  <div class="card-body">
+                    <h6 class="card-title">Thor: love and thunder</h6>
+                    <p id="thor_4_text" class="card-text">Kamala is a superhero fan with an imagination, particularly when it comes to Captain Marvel; Kamala feels like she doesn't fit in at school and sometimes even at home, that is until she gets superpowers like the heroes she's looked up to.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+    </section>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // phase one
+            $("#iron_man_text").hide();
+
+            $("#hulk_text").hide();
+            
+            $("#iron_man_2_text").hide();
+
+            $("#captain_america_text").hide();
+
+            $("#avengers_text").hide();
+
+            $("#thor_text").hide();
+
+            $("#avengers_text").hide();
+
+            // phase two
+
+            $("#iron_man_3_text").hide();
+            
+            $("#thor_2_text").hide();
+
+            $("#captain_america_2_text").hide();
+
+            $("#gfg_1_text").hide();
+
+            $("#avengers_2_text").hide();
+
+            $("#antman_text").hide();
+
+            //phase three
+
+            $("#civil_war_text").hide();
+
+            $("#doctor_strange_1_text").hide();
+
+            $("#gfg_2_text").hide();
+
+            $("#spider_1_text").hide();
+
+            $("#thor_3_text").hide();
+
+            $("#black_panther_1_text").hide();
+
+            $("#infinity_war_text").hide();
+
+            $("#antman_2_text").hide();
+
+            $("#captain_marvel_text").hide();
+
+            $("#end_game_text").hide();
+
+            $("#spider_2_text").hide();
+
+            //phase 4
+
+            $("#wanda_text").hide();
+
+            $("#falcon_text").hide();
+
+            $("#loki_text").hide();
+
+            $("#widow_text").hide();
+
+            $("#what_if_text").hide();
+
+            $("#shang_text").hide();
+
+            $("#eternals_text").hide();
+
+            $("#hawkeye_text").hide();
+
+            $("#spider_3_text").hide();
+
+            $("#moonknight_text").hide();
+
+            $("#doctor_2_text").hide();
+
+            $("#ms_marvel_text").hide();
+
+            $("#thor_4_text").hide();
+
+            $("#iron_man_1").click(function(){
+                $("#iron_man_text").slideToggle();
+            })
+
+            $("#hulk").click(function(){
+                $("#hulk_text").slideToggle();
+            })
+
+            $("#iron_man_2").click(function(){
+                $("#iron_man_2_text").slideToggle();
+            })
+
+            $("#thor").click(function(){
+                $("#thor_text").slideToggle();
+            })
+
+            $("#captain_america").click(function(){
+                $("#captain_america_text").slideToggle();
+            })
+
+            $("#avengers").click(function(){
+              $("#avengers_text").slideToggle();
+            })
+            //phase two
+            $("#iron_man_3").click(function(){
+              $("#iron_man_3_text").slideToggle();
+            })
+
+            $("#thor_2").click(function(){
+              $("#thor_2_text").slideToggle();
+            })
+
+            $("#captain_america_2").click(function(){
+              $("#captain_america_2_text").slideToggle();
+            })
+
+            $("#gfg_1").click(function(){
+              $("#gfg_1_text").slideToggle();
+            })
+
+            $("#avengers_2").click(function(){
+              $("#avengers_2_text").slideToggle();
+            })
+
+            $("#antman").click(function(){
+              $("#antman_text").slideToggle();
+            })
+
+            //phase three
+
+            $("#civil_war").click(function(){
+              $("#civil_war_text").slideToggle();
+            })
+
+            $("#doctor_strange_1").click(function(){
+              $("#doctor_strange_1_text").slideToggle();
+            })
+
+            $("#gfg_2").click(function(){
+              $("#gfg_2_text").slideToggle();
+            })
+
+            $("#spider_1").click(function(){
+              $("#spider_1_text").slideToggle();
+            })
+
+            $("#thor_3").click(function(){
+              $("#thor_3_text").slideToggle();
+            })
+
+            $("#black_panther_1").click(function(){
+              $("#black_panther_1_text").slideToggle();
+            })
+
+            $("#infinity_war").click(function(){
+              $("#infinity_war_text").slideToggle();
+            })
+
+            $("#antman_2").click(function(){
+              $("#antman_2_text").slideToggle();
+            })
+
+            $("#captain_marvel").click(function(){
+              $("#captain_marvel_text").slideToggle();
+            })
+
+            $("#end_game").click(function(){
+              $("#end_game_text").slideToggle();
+            })
+
+            $("#spider_2").click(function(){
+              $("#spider_2_text").slideToggle();
+            })
+
+            $("#wanda").click(function(){
+              $("#wanda_text").slideToggle();
+            })
+
+            $("#falcon").click(function(){
+              $("#falcon_text").slideToggle();
+            })
+
+            $("#loki").click(function(){
+              $("#loki_text").slideToggle();
+            })
+
+            $("#widow").click(function(){
+              $("#widow_text").slideToggle();
+            })
+
+            $("#what_if").click(function(){
+              $("#what_if_text").slideToggle();
+            })
+
+            $("#shang").click(function(){
+              $("#shang_text").slideToggle();
+            })
+
+            $("#eternals").click(function(){
+              $("#eternals_text").slideToggle();
+            })
+
+            $("#hawkeye").click(function(){
+              $("#hawkeye_text").slideToggle();
+            })
+
+            $("#spider_3").click(function(){
+              $("#spider_3_text").slideToggle();
+            })
+
+            $("#moonknight").click(function(){
+              $("#moonknight_text").slideToggle();
+            })
+
+            $("#doctor_2").click(function(){
+              $("#doctor_2_text").slideToggle();
+            })
+
+            $("#ms_marvel").click(function(){
+              $("#ms_marvel_text").slideToggle();
+            })
+
+            $("#thor_4").click(function(){
+              $("#thor_4_text").slideToggle();
+            })
+        })
+    </script>
+</body>
+</html>

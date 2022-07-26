@@ -1,0 +1,69 @@
+body
+{
+    font-family: 'Montserrat';
+    color: #fff;
+}
+/* title */
+#marvel
+{
+    font-family: 'Marvel';
+    color: #fff;
+    font-size: 60px;
+    background-color: red;
+}
+.bg
+{
+    background-color: black;
+}
+.fluid-container
+{
+    padding: 0% 10% 0% 10%;
+    background-color: red;
+}
+.navbar
+{
+    background-color: red;
+}
+.nav-link
+{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color:azure;
+}
+/* testimonials */
+.carousel
+{
+    background-color: black;
+    padding:40px 0px 0px 40px;
+}
+.carousel-item
+{
+    padding-bottom: 30px;
+    line-height: 4;
+}
+#wallpaper
+{
+    width:50%;
+}
+.logo
+{
+    width:45%;
+    position: absolute;
+}
+.btn
+{
+    color: #fff;
+    position: relative;
+    top:10px
+}
+#socials
+{
+    background-color:ghostwhite;
+    padding-left: 100px;
+    height: 150px;
+}
+.icon
+{
+
+    background-color:#ff4c68;
+}
