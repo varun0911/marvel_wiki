@@ -3,9 +3,13 @@ body
     font-family: 'Montserrat';
     color: black;
 }
+@font-face {
+    font-family: Marvello;
+    src: url('MarvelRegular-Dj83.tff');
+}
 #marvel
 {
-    font-family: 'Marvel';
+    font-family: 'Marvello';
     color: #fff;
     font-size: 60px;
     background-color: red;
