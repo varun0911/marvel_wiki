@@ -4,6 +4,10 @@ body
     color: #fff;
 }
 /* title */
+@font-face {
+    font-family: Marvel;
+    src: url('MarvelRegular-Dj83.tff');
+}
 #marvel
 {
     font-family: 'Marvel';
