@@ -6,7 +6,7 @@ body
 /* title */
 @font-face {
     font-family: 'Marvello';
-    src: url('MarvelRegular-Dj83.tff');
+    src: url('/MarvelRegular-Dj83.ttf');
 }
 #marvel
 {
